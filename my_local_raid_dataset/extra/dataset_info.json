@@ -1,0 +1,114 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "raid",
+  "dataset_name": "raid",
+  "dataset_size": 15676987894,
+  "description": "",
+  "download_size": 15486828146,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "adv_source_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "model": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "decoding": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "repetition_penalty": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "attack": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "generation": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 31163816040,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 11921724847,
+      "num_examples": 5615820,
+      "shard_lengths": [
+        260000,
+        340000,
+        170000,
+        250000,
+        300000,
+        160000,
+        230000,
+        260000,
+        220000,
+        160000,
+        360000,
+        250000,
+        260000,
+        320000,
+        180000,
+        290000,
+        330000,
+        180000,
+        280000,
+        190000,
+        240000,
+        240000,
+        130000,
+        15820
+      ],
+      "dataset_name": "raid"
+    },
+    "extra": {
+      "name": "extra",
+      "num_bytes": 3755263047,
+      "num_examples": 2039100,
+      "shard_lengths": [
+        320000,
+        310000,
+        330000,
+        350000,
+        320000,
+        270000,
+        100000,
+        39100
+      ],
+      "dataset_name": "raid"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
